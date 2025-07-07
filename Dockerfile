@@ -8,4 +8,4 @@ ENV N8N_ENCRYPTION_KEY=supersecurekey1234
 ENV N8N_EDITOR_BASE_URL=https://n8n-youtube-bot-1.onrender.com
 ENV WEBHOOK_URL=https://n8n-youtube-bot-1.onrender.com
 EXPOSE 5678
-CMD ["/usr/local/bin/n8n"]
+CMD ["npm", "start"]
